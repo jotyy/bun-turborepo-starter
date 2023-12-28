@@ -1,4 +1,4 @@
-# Bun Turborepo starter
+# Bun Turborepo Starter
 
 This is a starter template for a [Turborepo](https://turbo.build/repo) using [Svelte](https://svelte.dev/) and [Elysia](https://elysiajs.com/).
 
