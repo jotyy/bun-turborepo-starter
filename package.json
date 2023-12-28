@@ -1,0 +1,30 @@
+{
+  "name": "bun-turborepo-starter",
+  "version": "1.0.0",
+  "description": "A starter template for a bun project using TurboRepo",
+  "author": {
+    "name": "Joshua Lee",
+    "email": "jotyy318@gmail.com"
+  },
+  "license": "MIT",
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev",
+    "lint": "turbo run lint"
+  },
+  "devDependencies": {
+    "eslint": "^8.54.0",
+    "@repo/eslint-config": "*",
+    "prettier": "^3.1.0",
+    "prettier-plugin-svelte": "^3.1.2",
+    "turbo": "latest"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "packageManager": "bun@1.0.20",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ]
+}
